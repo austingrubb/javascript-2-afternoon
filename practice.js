@@ -14,13 +14,12 @@
   Then alert your name using dot notation.
 */
 
-var me = {
-  name:"austin",
+let me = {
+  name: "austin",
   age: 23,
 }
-me.name;
 
-
+alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -29,22 +28,21 @@ me.name;
   Have the values to those keys be your favorite thing in that category.
 */
 
-var favoriteThings = {
-  band:"toby keth",
-  food:"steak",
-  person:"me",
-  book:"none",
-  movie:"top gun",
-  holiday:"chrismas"
-};
-
+let favoriteThings = {
+  band: "music",
+  food: "steak",
+  person: "trump",
+  book: "nan",
+  movie: "topgun",
+  holiday: "newYears",
+}
 
 
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-favoriteThings.car = "f100";
+favoriteThings.car = "gt350";
 favoriteThings.brand = "ford";
 
 
@@ -53,9 +51,8 @@ favoriteThings.brand = "ford";
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-favoriteThings.food = "Chicken Nuggets";
-favoriteThings.book = "Harry Potter";
-
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 
 ////////// PROBLEM 3 //////////
@@ -68,11 +65,11 @@ favoriteThings.book = "Harry Potter";
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
-var backPack = [];
-var item = "firstPocket"
-backPack[item]
-backPack.firstPocket = "chapstick"
-backPack.color = "the color of my backpack is bule";
+let backPack = {}
+let item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = "blue";
+
 
 
 
@@ -113,15 +110,8 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-user2['name'] = 'Tyler S. McGinnis';
-user2['email'] = 'tyler.mcginnis@devmounta.in'
-
-
-
-
-
-
-
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in"
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
